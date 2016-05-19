@@ -3,7 +3,7 @@
 
 ## Welcome
 
-This is an introduction to [sass-scss], [compass] and [jade] by Diego Santiesteban - [@gato_developer][gatodeveloper]
+This is an introduction to [sass-scss], [compass] and [jade] By Diego Santiesteban - [@gato_developer][gatodeveloper]
 
 ## Tools
 
