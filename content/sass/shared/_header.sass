@@ -1,0 +1,30 @@
+header
+  background: $header-bgc
+  color: #fff
+
+  .header-left,
+  .header-right
+    +inline-block
+    width: 50%
+    vertical-align: middle
+
+  a
+    color: #fff
+    text-decoration: none
+    +inline-block
+    padding-left: 1em
+
+  .brand
+    font-size: 1.5em
+
+    small
+      font-size: .7em
+
+  .header-right
+    text-align: right
+    a
+      font-size: 1em
+      padding: 1em
+
+      &:hover
+        background: rgba(0, 0, 0, .2)
