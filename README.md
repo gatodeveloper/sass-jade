@@ -3,7 +3,7 @@
 
 ## Welcome
 
-This is an introduction to sass-scss, compass and jade by @gato_developer. 
+This is an introduction to [sass-scss], [compass] and [jade] by Diego Santiesteban - [@gato_developer][gatodeveloper]
 
 ## Tools
 
@@ -36,13 +36,22 @@ $ sass -v
 $ gulp -v
 ```
 
+## Installs
+
+Install ruby gems
+
+```
+$ gem install sass
+; gem install compass
+```
+
 if you have nodejs installed, you can install jade, bower and gulp with npm
 
 ```sh
 $ npm install jade -g; npm install gulp -g; npm install bower -g
 ```
 
-### Install dependecies
+### Install dependecies.
 
 ```sh
 $ npm i -d
@@ -52,7 +61,7 @@ and
 $ bower i
 ```
 
-### Install
+### Install or download Repo.
 
 ```
 $ git clone git@github.com:gatodeveloper/sass-jade.git
@@ -94,7 +103,10 @@ License
 
 MIT
 
+[gatodeveloper]: https://twitter.com/gato_developer
+[sass-scss]: <http://sass-lang.com/>
+[jade]: <http://jade-lang.com/>
+[compass]: <http://compass-style.org/>
 [download zip]: <https://github.com/gatodeveloper/sass-jade/archive/master.zip>
 [HTML to Jade]: <http://html2jade.org/>
 [Jade to HTML]: <http://jade-lang.com/>
-
