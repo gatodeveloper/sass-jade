@@ -1,5 +1,5 @@
 .icons-sprite, .icon-github {
-  background-image: url('../../../content/img/icons-s26a1066fbb.png');
+  background-image: url('../../../content/img/icons-s03465f0217.png');
   background-repeat: no-repeat;
 }
 
@@ -65,7 +65,7 @@ h3 {
 }
 
 .icon-github {
-  background-position: 0 -108px;
+  background-position: 0 0;
   height: 128px;
   width: 128px;
 }
