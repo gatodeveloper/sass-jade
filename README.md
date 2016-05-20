@@ -80,22 +80,6 @@ or [download zip]
 
 
 
-## Javascript task Tool (Gulp)
-
-#### Run default task.
-```
-$ gulp
-```
-
-#### Run a specific task
-
-- sass
-- jade
-
-```
-$ gulp <task>
-```
-
 
 ### Version
 0.0.1
