@@ -48,17 +48,20 @@ $ gem install sass
 if you have nodejs installed, you can install jade, bower and gulp with npm
 
 ```sh
-$ npm install jade -g; npm install gulp -g; npm install bower -g
+$ npm install jade -g;
 ```
 
-### Install dependecies.
+### Compile sass with compass(from path content)
+
 
 ```sh
-$ npm i -d
+$ compass watch -c config.rb
 ```
-and
+
+### Compile jade(from path content)
+
 ```
-$ bower i
+$ jade -w jade -o ../public
 ```
 
 ### Install or download Repo.

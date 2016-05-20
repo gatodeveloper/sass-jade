@@ -1,3 +1,8 @@
+.icons-sprite, .icon-github {
+  background-image: url('../../../content/img/icons-s26a1066fbb.png');
+  background-repeat: no-repeat;
+}
+
 body {
   font-family: Arial, Helvetica, Sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -43,7 +48,7 @@ body {
 h1,
 h2,
 h3 {
-  padding: 1em;
+  padding: 1em 0;
   margin: 0;
 }
 
@@ -52,11 +57,17 @@ h1 {
 }
 
 h2 {
-  font-size: 1.7;
+  font-size: 1.7em;
 }
 
 h3 {
-  font-size: 1.5;
+  font-size: 1.5em;
+}
+
+.icon-github {
+  background-position: 0 -108px;
+  height: 128px;
+  width: 128px;
 }
 
 header {
@@ -99,15 +110,13 @@ footer {
   color: white;
   padding: 1em;
   text-align: center;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
 }
 
 #content {
   width: 80%;
   margin: auto;
+  overflow: hidden;
+  padding: 2em 0;
 }
 #content h1 {
   text-align: center;

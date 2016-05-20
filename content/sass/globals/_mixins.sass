@@ -23,12 +23,11 @@
     visibility: hidden
 
 // Add color param
-@mixin anchor-reset
+@mixin anchor-reset($color)
   text-decoration: none
-  color: inherit
+  color: $color
 
-@mixin centered        
-  //max-width: $width
+@mixin centered
   max-width: $width
   *width: $width
   margin-left: auto
